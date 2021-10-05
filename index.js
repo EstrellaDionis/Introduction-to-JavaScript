@@ -133,7 +133,7 @@ function hungryDog(weight, age){
   }else if(age < 0.583 && age >= 0.333){
     return weight * 0.05;
   }else if(age < 0.333){
-    weight * 0.1;
+    return weight * 0.1;
   }else{
     return 'please try again';
   }
@@ -239,13 +239,12 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(number){
      for(let i = number; i > 0; i--){
-       return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around
-       ${i -1} bottles of soda on the wall`;
+       return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i - 1} bottles of soda on the wall`;
      }
 }
 
-console.log('task 6:', annoyingSong(8));
-console.log('task 6:', annoyingSong(7));
+console.log('task 6:', annoyingSong(5));
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
