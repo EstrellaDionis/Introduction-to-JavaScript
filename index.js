@@ -246,7 +246,7 @@ function annoyingSong(number){
 
 console.log('task 6:', annoyingSong(8));
 console.log('task 6:', annoyingSong(7));
-console.log('task 6:', annoyingSong(6));
+
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -294,7 +294,7 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
+function vowelCounter(string) {
   /*add your code here*/
 }
 
