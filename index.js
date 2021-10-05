@@ -133,7 +133,7 @@ function hungryDog(weight, age){
   }else if(age < 0.583 && age >= 0.333){
     return weight * 0.05;
   }else if(age < 0.333){
-    weight * 0.10;
+    weight * 0.1;
   }else{
     return 'please try again';
   }
